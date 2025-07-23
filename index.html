@@ -1,115 +1,164 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
- <title>CV Lionel Madogotcha</title>
- <link rel="stylesheet" href="style.css" />
- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Lionel Madogotcha</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <script src="cv.js" defer></script>
 </head>
 <body>
- <div class="cv-container">
- <!-- Colonne gauche -->
- <div class="sidebar">
- <div class="profile-photo">
- <img src="photo.jpg" alt="Photo de Lionel">
- </div>
+  <div class="cv-container">
+    <!-- Colonne gauche -->
+    <div class="sidebar">
+      <div class="profile-photo">
+        <img src="assets/photo.jpg" alt="Photo de Lionel">
+      </div>
 
- <div class="section">
- <h3>Coordonnées</h3>
- <p><i class="fas fa-phone"></i> +33 7 53 97 58 13</p>
- <p><i class="fas fa-envelope"></i> tchoropamadagodotcha@gmail.com</p>
- <p><i class="fas fa-location-dot"></i> 49 rue Antonin Georges Belin, 95100 Argenteuil</p>
- </div>
+      <div class="section">
+        <h3>COORDONNES</h3>
+        <p><i class="fas fa-phone"></i> +33 7 53 97 58 13</p>
+        <p><i class="fas fa-envelope"></i> tchoropamadagodotcha@gmail.com</p>
+        <p><i class="fas fa-location-dot"></i> 49 rue Antonin Georges Belin, 95100 Argenteuil</p>
+      </div>
 
- <div class="section">
- <h3>Langues</h3>
- <ul>
- <li>Français </li>
- <li>Anglais </li>
- </ul>
- </div>
+      <div class="section">
+        <h3>LANGUES</h3>
+        <ul>
+          <li>Français </li>
+          <li>Anglais </li>
+        </ul>
+      </div>
 
- <div class="section">
- <h3>Compétences</h3>
- <ul>
- <li><i class="fas fa-clock"></i> Gestion du temps</li>
- <li><i class="fas fa-list-check"></i> Organisation</li>
- <li><i class="fas fa-comments"></i> Communication</li>
- <li><i class="fas fa-users"></i> Leadership</li>
- <li><i class="fas fa-brain"></i> Adaptabilité</li>
- <li><i class="fas fa-hand-holding-heart"></i> Disponibilité</li>
- </ul>
- </div>
+      <div class="section">
+        <h3>COMPETENCES</h3>
+        <ul>
+          <li><i class="fas fa-clock"></i> Gestion du temps</li>
+          <li><i class="fas fa-list-check"></i> Organisation</li>
+          <li><i class="fas fa-comments"></i> Communication</li>
+          <li><i class="fas fa-users"></i> Leadership</li>
+          <li><i class="fas fa-brain"></i> Adaptabilité</li>
+          <li><i class="fas fa-hand-holding-heart"></i> Disponibilité</li>
+        </ul>
+      </div>
 
- <div class="section">
- <h3>Centres d’intérêt</h3>
- <ul>
- <li><i class="fas fa-book"></i> Lecture</li>
- <li><i class="fas fa-hiking"></i> Randonnée</li>
- <li><i class="fas fa-dumbbell"></i> Gymnastique</li>
- </ul>
- </div>
- </div>
+      <div class="section">
+        <h3>Centres d’intérêt</h3>
+        <ul>
+          <li><i class="fas fa-book"></i> Lecture</li>
+          <li><i class="fas fa-hiking"></i> Randonnée</li>
+          <li><i class="fas fa-dumbbell"></i> Sport</li>
+        </ul>
+      </div>
+    </div>
+    
+      
 
- <!-- Colonne droite -->
- <div class="main-content">
- <h1>MADOGOTCHA <br> Tchoropa Lionel</h1>
- <p class="job-title">Vendeur</p>
+    <!-- Colonne droite -->
+    <div class="main-content">
 
- <section class="section">
- <h2>À propos</h2>
- <p>
- Titulaire d’une licence en sciences économiques, spécialité économie et finance internationale,
- j’ai bénéficié d’une formation rigoureuse. Grâce à mes expériences professionnelles, j’ai développé
- des compétences solides qui font de moi un acteur polyvalent, réactif et organisé, pour optimiser les
- performances commerciales et opérationnelles.
- </p>
- </section>
+      
 
- <section class="section">
- <h2> Formation</h2>
- <div class="item">
- <strong>Licence en Sciences Économiques<br>
- Université de Parakou (2016–2018)</strong>
- </div>
- <div class="item">
- <strong>Baccalauréat Série D<br>
- Lycée Benin (2016)</strong>
- </div>
- </section>
+      <h1>MADOGOTCHA <br> Tchoropa Lionel</h1>
+      <section class="section">
+        <h2 data-i18n="fr">PROFIL</h2>
+        <h2 class="hidden" data-i18n="en">About</h2>
 
- <section class="section">
- <h2> Expériences professionnelles</h2>
+        <p data-i18n="fr">
+          Titulaire d’une licence en sciences économiques, spécialité économie et finance internationale,
+          j’ai bénéficié d’une formation rigoureuse. Grâce à mes expériences professionnelles, j’ai développé
+          des compétences solides qui font de moi un acteur polyvalent, réactif et organisé, pour optimiser les
+          performances commerciales et opérationnelles.
+        </p>
+        <p class="hidden" data-i18n="en">
+          Holder of a degree in economics, specialized in international economics and finance,
+          I have benefited from rigorous training. Thanks to my professional experiences, I have developed
+          solid skills that make me a versatile, responsive, and organized contributor, aimed at optimizing
+          commercial and operational performance.
+        </p>
+      </section>
 
- <div class="item">
- <strong>Intérimaire – Vendeur polyvalent<br>
- H&M, ZARA, KIABI (2023–2025)</strong><br>
- <ul>
- <li>Accueil client, accompagnement à l’achat</li>
- <li>Mise en rayon, étiquetage et réassort</li>
- <li>Encaissement, cabines d’essayage, inventaires</li>
- </ul>
- </div>
+      <section class="section">
+        <h2 data-i18n="fr">FORMATIONS</h2>
+        <h2 class="hidden" data-i18n="en">Education</h2>
 
- <div class="item">
- <strong>Vendeur <br> H&M (2022–2023)</strong><br>
- <ul>
- <li>Conseil clientèle, mise en valeur des articles</li>
- <li>Suivi de stock et disponibilité produits</li>
- </ul>
- </div>
+        <div class="item">
+          <strong>
+            Licence en Sciences Économiques<br>
+            Université de Parakou (2016–2018)
+          </strong>
+        </div>
+        <div class="item">
+          <strong>
+            Baccalauréat Série D<br>
+            Lycée Benin (2016)
+          </strong>
+        </div>
+      </section>
 
- <div class="item">
- <strong>Préparateur de commandes<br>
- Logistique Luxe Bobigny (2020–2022)</strong><br>
- <ul>
- <li>Préparation, conditionnement et expéditions</li>
- <li>Réception, contrôle qualité et gestion des stocks</li>
- </ul>
- </div>
- </section>
- </div>
- </div>
+      <section class="section">
+        <h2 data-i18n="fr">EXPERIENCES PROFESSIONNELLES</h2>
+        <h2 class="hidden" data-i18n="en">Work Experience</h2>
+
+        <div class="item">
+          <strong>
+            <img src="assets/img/hm.png" alt="Logo H&M" style="height:20px; vertical-align:middle; margin-right:8px;">
+            Intérimaire – Vendeur polyvalent<br>
+            H&M, ZARA, KIABI (2023–2025)
+          </strong><br>
+          <ul>
+            <li data-i18n="fr">Accueil client, accompagnement à l’achat</li>
+            <li data-i18n="fr">Mise en rayon, étiquetage et réassort</li>
+            <li data-i18n="fr">Encaissement, cabines d’essayage, inventaires</li>
+
+            <li class="hidden" data-i18n="en">Customer reception and purchase assistance</li>
+            <li class="hidden" data-i18n="en">Stock shelving, labeling and replenishment</li>
+            <li class="hidden" data-i18n="en">Checkout, fitting rooms, inventory</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <strong>
+            <img src="assets/img/hm.png" alt="Logo H&M" style="height:20px; vertical-align:middle; margin-right:8px;">
+            Vendeur <br> H&M (2022–2023)
+          </strong><br>
+          <ul>
+            <li data-i18n="fr">Conseil clientèle, mise en valeur des articles</li>
+            <li data-i18n="fr">Suivi de stock et disponibilité produits</li>
+
+            <li class="hidden" data-i18n="en">Customer advice, product highlighting</li>
+            <li class="hidden" data-i18n="en">Stock monitoring and product availability</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <strong>
+            <img src="assets/img/llb.png" alt="Logo Logistique Luxe Bobigny" style="height:20px; vertical-align:middle; margin-right:8px;">
+            Préparateur de commandes<br>
+            Logistique Luxe Bobigny (2020–2022)
+          </strong><br>
+          <ul>
+            <li data-i18n="fr">Préparation, conditionnement et expéditions</li>
+            <li data-i18n="fr">Réception, contrôle qualité et gestion des stocks</li>
+
+            <li class="hidden" data-i18n="en">Preparation, packaging and shipping</li>
+            <li class="hidden" data-i18n="en">Reception, quality control and stock management</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- Modal de téléchargement -->
+<div id="pdfModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3>Souhaitez-vous télécharger le CV en PDF ?</h3>
+      <button id="downloadPdfBtn">Télécharger le CV</button>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
 </body>
 </html>
