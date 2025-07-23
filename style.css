@@ -161,5 +161,66 @@ ul li {
   .close:hover {
     color: #000;
   }
+
+  /* --- Responsive design --- */
+@media screen and (max-width: 768px) {
+    .cv-container {
+      flex-direction: column;
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .sidebar,
+    .main-content {
+      width: 100%;
+      padding: 20px;
+      border-right: none;
+    }
+  
+    .main-content {
+      padding-top: 0;
+    }
+  
+    .profile-photo img {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 20px;
+      display: block;
+    }
+  
+    .section h2 {
+      font-size: 18px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    .job-title {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .profile-photo img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .section h3,
+    .section h2 {
+      font-size: 16px;
+    }
+  
+    ul li {
+      font-size: 14px;
+    }
+  
+    #downloadPdfBtn {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
  
   
